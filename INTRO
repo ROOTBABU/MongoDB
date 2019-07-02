@@ -3,7 +3,8 @@ Humongous: Because it can store lots and lots of data
 data -> stored as  object like JSON{Javascript object notation}BSON(Binary JSON)
 
 
-differnet from mysql : Joints,
+ mysql : Joints,Relations
+ MONGODB: Nojoints, NO/few Relations
 document:
         {
         

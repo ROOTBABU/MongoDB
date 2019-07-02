@@ -1,3 +1,22 @@
 Humongous: Because it can store lots and lots of data 
 
-data -> stored as  object like JSON{Javascript object notation}B`son
+data -> stored as  object like JSON{Javascript object notation}BSON(Binary JSON)
+
+
+differnet from mysql : Joints,
+document:
+        {
+        
+        name:'Max',
+        age:29,
+        address:{//embadded document
+                  
+                    city:'Munich'
+        
+                  }
+        hobbies:[
+            {name:'Cooking'},
+            {name:'Sports'}
+        
+        ]
+        }
